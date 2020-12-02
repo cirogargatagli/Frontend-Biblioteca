@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="../img/Inicio.png">  
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" TYPE="text/css">
+  <!-- Mis Estilos CSS-->
+  <link rel="stylesheet" href= "../css/index.css" TYPE="text/css"> 
+  <link rel="stylesheet" href= "../css/responsive.css" TYPE="text/css"> 
+  <link rel="stylesheet" href= "../css/misAlquileresStyle.css" TYPE="text/css">
+  <link rel="stylesheet" href= "../css/catalogostyle.css" TYPE="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet" TYPE="text/css">
+  <!-- Maps -->
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />    
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css' type='text/css'/>
+  <title>Biblioteca Municipal de Carmen de Areco</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" id="navId">
+    <a href="index.html" class="inicio" id="inicio"><img src="../img/Inicio.png" class="logo-brand"></a>
+
+    <button class="navbar-logger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <ion-icon name="menu-outline"></ion-icon>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">        
+        <li data-hash="catalogo" class="nav-item">
+          <a id="catalogo-header"  href="catálogo.html" class="nav-link links"><strong>Catálogo</strong></a>
+        </li>
+        <li data-hash="misAlquileres" class="nav-item">
+          <a id="misAlquileres-header" href="Mis Alquileres.html"class="nav-link links"><strong>Mis Alquileres</strong></a>
+        </li>
+    </div>
+  </nav>
+  
+  <main>
+    <section>
+      <div class="container-section">
+        <div class="container-txt">
+          <h1>Página web de la biblioteca municipal de Cármen de Areco</h1>
+        </div>
+        <img class="container-img" src="../img/006-library-biblioteca-angelica-a-roma_0002.jpg" />
+      </div>      
+    </section>
+    <section class = "contacto">
+      <div class = "container-contacto">
+        <img class= "logocompleto" src = "../img/LogoCompleto.svg">
+        <button id = "ubicacion"><img class="ubicacion"src="http://www.obesidadenmallorca.com/images/localizacion_PAGAN.png"/></button>
+        <a href="mailto:biblioteca_de_areco@correo.com?Subject="><img class="contactoboton"src="../img/contactenos.png" /></a>
+      </div>
+    </section>     
+  </main>
+  <footer>
+    &copy; 2020 Biblioteca municipal de Carmen de Areco - Desarrollado por
+    <a class= "desarrollador" href="https://www.linkedin.com/in/ciro-gargatagli-g%C3%B3mez-aba44a1a9/">Ciro Gargatagli</a>    
+  </footer>
+
+  <!-- Mapbox -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js'></script>
+  <!-- JavaScript -->
+  <script type="module" src="../js/script.js"></script>
+  <script type="module" src="../js/Apps/AppMaps.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

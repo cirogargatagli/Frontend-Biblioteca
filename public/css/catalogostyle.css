@@ -1,0 +1,210 @@
+.tarjeta {
+  z-index: 3;
+  margin: 2rem 3rem;
+  transition: all 0.4s ease;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border-color: #34495e;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  width: 23%;
+  height: 375px;  
+}
+.tarjeta:hover {
+  transform: scale(1.03);
+  height: 490px;
+  box-shadow: 0px 0px 10px 3px rgb(5, 154, 223, 0.5);
+}
+.tarjeta p{
+  margin-bottom: 5px;
+}
+.tarjeta h5 {
+  margin: 0;
+  font-weight: bold;
+  padding-top: 3px;
+  font-size: 17px;
+}
+.buttonImg{
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  height: 350px;
+  border: 0px solid;
+}
+.imagen-libro{
+  width: 100%;
+  height: 100%;
+}
+
+.buttonAlquiler{
+    width: 100px;
+    height: 35px;
+    border: 2px;        
+    background-color: transparent;
+    color: rgb(5, 154, 223);
+    border: 2px solid rgb(5, 154, 223);
+    border-radius: 7px;
+    font-size: 15px;
+    margin-right: 3%;
+}
+.buttonAlquiler:hover {    
+  transform: scale(1.1);
+  background-color:rgb(5, 154, 223);
+  color: white;
+  text-decoration: none;
+}
+
+.buttonReserva{
+  width: 100px;
+  height: 35px;
+  border: 2px;        
+  background-color: transparent;
+  color: #00c69f;
+  border: 2px solid #00c69f;
+  border-radius: 7px;
+  font-size: 15px;
+  margin-left: 3%;
+}
+.buttonReserva:hover {
+  transform: scale(1.2);
+  background-color: #00c69f;
+  color: white;
+  text-decoration: none;
+}
+
+#section-tarjetas{
+  padding: 0px 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.container-busqueda{  
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  display: flex;
+  height: 70px;
+  padding: 0px 50px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(5, 154, 223));
+}
+
+#titulo-catalogo{
+  padding-left: 5px;
+  font-size: 25px;
+}
+
+/* Buscador */
+.search{
+  align-items: center;
+  position:relative;
+  height:50px;
+  width:500px;
+  margin-left: auto;
+}
+.search .form-search{
+  position:absolute;
+  right:0px;
+  top:0px;
+}
+.search .form-search input[type=text]{
+  background-image: url('https://img.icons8.com/fluent-systems-filled/24/000000/google-web-search.png');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 30px;
+  background-position: right;
+  display: flex;
+  -webkit-appearance: textfield;
+  font-family: inherit;
+  font-size: 100%;
+  border: solid 1px #ccc;
+  padding: 9px 18px;
+  width: 200px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.search .form-search input[type=text]:focus {
+  width: 350px;
+  background-color: #fff;
+}
+
+/* Popup */
+.popup{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 10px 1000px rgba(0, 0, 0, 0.8);
+  background-color: white;
+  border-radius: 3px;
+  border-color: rgb(5, 154, 223, 0.6);
+  border-style: solid;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  z-index: 4;
+  text-align: center;
+ }
+
+.resumen {  
+  width: 50%;
+  text-align: justify;
+  margin-left: 30%;
+  height: 45%;
+}
+.popup h2{
+  height: 15px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.popup img{
+  margin-top: 7%;
+  margin-left: 5%;
+  float: left;
+  height: 50%;
+  width: 15%;
+}
+
+.popup h4{  
+  margin-top: 7%;
+  margin-right: 49.5%;
+}
+
+#info{
+  margin-top: 4%;
+}
+
+.pAlquiler{
+  box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(5, 154, 223, 0.6);
+  padding-top: 4%;
+  width: 80%;
+  height: 30%;
+  align-items: center;
+  margin-top: 12%;
+  margin-left: 10%;
+}
+
+.buttonAceptar{
+  width: 25%;
+  height: 10%;
+  border: 2px;        
+  background-color: transparent;
+  color: rgb(5, 154, 223);
+  border: 2px solid rgb(5, 154, 223);
+  border-radius: 7px;
+  font-size: 15px;
+  margin-top: 6%;
+}
+.buttonAceptar:hover{
+  transform: scale(1.1);
+  background-color:rgb(5, 154, 223);
+  color: white;
+  text-decoration: none;
+}
